@@ -5,8 +5,16 @@ Report of average and maximum rainfall
 * rainfall.cpp - Main program
 * rainfall.csv - Rainfall data
 * report.txt - Output of rainfall program with rainfall.csv data
-* Makefile - build file
+* CMakeLists.txt - build-generator file
 * README.md
+
+Create build file:
+
+```console
+mkdir build
+cd build
+cmake ..
+```
 
 Build:
 
