@@ -12,6 +12,10 @@ int main() {
     while (cin >> n) {
         rainfall.push_back(n);
     }
+    if (!rainfall.size()) {
+        cout << "Error: no rainfall data";
+        return 1;
+    }
     t = rainfall[0];
     m = rainfall[0];
     for (vector<float>::size_type i = 1; i < rainfall.size(); ++i) {
